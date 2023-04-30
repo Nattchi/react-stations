@@ -19,7 +19,7 @@ export function Description() {
     <>
       <div>
         <h2>犬の画像を表示するサイトです</h2>
-        <DogImage dogUrl={dogUrl} />
+        <DogImage url={dogUrl} />
       </div>
       <div>
         <button onClick={updateImage}>更新</button>
