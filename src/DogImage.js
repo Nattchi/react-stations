@@ -1,6 +1,6 @@
 // DO NOT DELETE
 import React from 'react'
 
-export default function DogImage(props) {
-  return <img src={props} alt="dog" />
+export function DogImage({ url }) {
+  return <img src={url} alt="dog" />
 }
